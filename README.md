@@ -1,2 +1,3 @@
-# Kafka-Chuck-Norris-Jokes_Stream
-A kafka streaming pipeline in Python that pulls random jokes from the Chuck Norris API.
+# kafka-stream-playground
+A collection of simple Kafka streaming pipelines built using Python, for learning purposes.  
+Each pipeline connects to a public API, produces events into Kafka, and consumes them.
