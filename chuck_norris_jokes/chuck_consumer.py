@@ -1,7 +1,7 @@
 import json
 from kafka import KafkaConsumer
 
-KAFKA_TOPIC = "chuck-norris-jokes"
+KAFKA_TOPIC = "kafka-stream-playground"
 
 consumer = KafkaConsumer(
     KAFKA_TOPIC,

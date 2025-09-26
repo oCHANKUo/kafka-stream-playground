@@ -3,7 +3,7 @@ import json
 import requests
 import time
 
-KAFKA_TOPIC = "chuck-norris-jokes"
+KAFKA_TOPIC = "kafka-stream-playground"
 BASE_URL = "https://api.chucknorris.io"
 
 producer = KafkaProducer(
