@@ -15,6 +15,8 @@ def main():
         value_deserializer=lambda x: json.loads(x.decode('utf-8'))
     )
 
+    print("Listening for jokes...")
+
     for msg in consumer:
         joke = msg.value
         print(f"Received joke: {joke['joke']}")
